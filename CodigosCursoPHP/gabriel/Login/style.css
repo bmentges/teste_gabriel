@@ -1,0 +1,57 @@
+body {
+    font: 14px Helvetica, Arial, sans-serif;
+}
+#login {
+    float: left;
+    display: block;
+}
+ul {
+    list-style: none;
+}
+li {
+    float: left;
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+}
+label {
+    float: left;
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="text"],
+input[type="password"] {
+    width: 200px;
+    height: 27px;
+    line-height: 27px;
+    border: solid 1px #d2d2d2;
+}
+input[type="submit"] {
+    color: #FFF;
+    width: 100px;
+    height: 27px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: solid 1px #036;
+    background: #069;
+}
+.erro {
+    color: #900;
+}
+
+#aviso {
+    background: none repeat scroll 0 0 #ffc;
+    border: 1px solid #ff3;
+    clear: left;
+    color: #f90;
+    display: block;
+    float: left;
+    font-size: 12px;
+    line-height: 27px;
+    margin-left: 38px;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 300px;
+}
