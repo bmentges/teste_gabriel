@@ -18,13 +18,6 @@
                 <div class="column is-4 is-offset-4">
                     <h3 class="title has-text-grey">Sistema de Cadastro</h3>
                     <h3 class="title has-text-grey"><a href="#" target="_blank">Mentges Informática</a></h3>
-                    <div class="notification is-success">
-                      <p>Cadastro efetuado!</p>
-                      <p>Faça login informando o seu usuário e senha <a href="login.php">aqui</a></p>
-                    </div>
-                    <div class="notification is-info">
-                        <p>Que pena! Este usuário já existe. Informe outro e tente novamente.</p>
-                    </div>
                     <div class="box">
                         <form action="cadastrar.php" method="POST">
                             <div class="field">
