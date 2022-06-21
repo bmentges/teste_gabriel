@@ -131,4 +131,18 @@
             <li><a href="exercicio.php?dir=namespace&file=sub_namespaces">Sub-Namespaces</a></li>
         </ul>
     </div>
+    <div class="modulo verde">
+        <h3>11. Trat. de Erros</h3>
+        <ul>
+            <li><a href="exercicio.php?dir=tratamento_erro&file=try_catch">Try/Catch</a></li>
+            <li><a href="exercicio.php?dir=tratamento_erro&file=erros_personalizados">Erros Personalizados</a></li>
+            <li><a href="exercicio.php?dir=tratamento_erro&file=error_handler">Error Handler</a></li>
+        </ul>
+    </div>
+    <div class="modulo vermelho">
+        <h3>12. Sessão & Cookie</h3>
+        <ul>
+            <li><a href="exercicio.php?dir=sessao&file=basico_sessao">Sessão</a></li>
+        </ul>
+    </div>
 </nav>
