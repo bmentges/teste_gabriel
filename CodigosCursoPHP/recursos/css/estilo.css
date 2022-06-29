@@ -158,19 +158,29 @@ hr {
     background-color: #555;
 }
 
-.navegacao > a {
+.usuario > a {
     text-decoration: none;
     color: #fff;
     font-weight: 300;
     font-size: 1.3rem;
     background-color: #2196f3;
     padding: 5px 10px;
+}
+
+.usuario > a.verde {
+    background-color: #4caf50;
+    margin-left: 10px;
     margin-right: 10px;
+}
+
+.usuario > a.vermelho {
+    background-color: #f44336;
+    margin-left: 10px;
 }
 
 span.usuario {
     flex-grow: 1;
-    justify-self: flex-start;
+    justify-self: flex-end;
     color: #eee;
     padding-left: 10px;
     font-size: 1.2rem;
