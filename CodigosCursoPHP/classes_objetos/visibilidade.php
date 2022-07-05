@@ -7,7 +7,7 @@ class A {
     private $privado = 'Privado';
 
     public function mostrarA() {
-        echo "Class A) Público = {$this->publico}<br>";
+        echo "Class A) Publico = {$this->publico}<br>";
         echo "Class A) Protegido = {$this->protegido}<br>";
         echo "Class A) Privado = {$this->privado}<br>";
     }
@@ -26,14 +26,14 @@ $a->mostrarA();
 // $a->naoMostrar();
 
 class B extends A {
-    public function MostrarB() {
-        echo "Class B) Público = {$this->publico}<br>";
+    public function mostrarB() {
+        echo "Class B) Publico = {$this->publico}<br>";
         echo "Class B) Protegido = {$this->protegido}<br>";
         echo "Class B) Privado = {$this->privado}<br>";
+
         parent::vaiPorHeranca();
     }
 }
-
 echo '<br>';
 $b = new B();
 $b->mostrarB();

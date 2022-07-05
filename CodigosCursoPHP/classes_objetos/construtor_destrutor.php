@@ -6,7 +6,7 @@ class Pessoa {
     public $idade;
 
     function __construct($novoNome, $idade = 18) {
-        echo 'Contrutor invocado! <br>';
+        echo 'Construtor invocado! <br>';
         $this->nome = $novoNome;
         $this->idade = $idade;
     }
@@ -20,7 +20,7 @@ class Pessoa {
     }
 }
 
-// $pessoa = new Pessoa(); // -> Problema <- Não posso chamar dessa forma, pois preciso passar um parâmetro, nesse caso.
+// $pessoa = new Pessoa(); // Problema
 
 $pessoaA = new Pessoa('Rebeca Maria', 40);
 $pessoaB = new Pessoa('João Pedro');

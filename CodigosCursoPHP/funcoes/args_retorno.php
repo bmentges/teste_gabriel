@@ -1,4 +1,4 @@
-<div class="titulo">Argumentos e Retorno</div>
+<div class="titulo">Argumentos & Retorno</div>
 
 <?php
 function obterMensagem() {
@@ -11,10 +11,6 @@ echo $m;
 echo '<br>', obterMensagem();
 echo '<br>';
 var_dump(obterMensagem());
-
-// Quando uma função retorna um valor, esse valor passa
-// a ser recebido a partir de uma variável e você tem 
-// muito mais flexibilidade nesse sentido.
 
 function obterMensagemComNome($nome) {
     return "Bem vindo, {$nome}!";
@@ -32,17 +28,17 @@ $y = 5;
 echo '<br>', soma(45, 78);
 echo '<br>', soma($x, $y);
 
-function trocaValor($a, $novoValor) {
+function trocarValor($a, $novoValor) {
     $a = $novoValor;
 }
 
 $variavel = 1;
-trocaValor($variavel, 3);
+trocarValor($variavel, 3);
 echo '<br>', $variavel;
 
-function trocaValorDeVerdade(&$a, $novoValor) {
+function trocarValorDeVerdade(&$a, $novoValor) {
     $a = $novoValor;
 }
 
-trocaValorDeVerdade($variavel, 5000);
+trocarValorDeVerdade($variavel, 5000);
 echo '<br>', $variavel;

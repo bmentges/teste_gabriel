@@ -1,7 +1,7 @@
 <div class="titulo">Integração CSS</div>
 
 <h1 center>
-<?php
+<?php 
 echo 'Olá';
 echo '<small>';
 echo ' Mundo!';
@@ -18,9 +18,9 @@ echo '</small>';
     button {
         padding: 5px <?= 2 * 10 ?>px;
         background-color: #4286f4;
-        color: #eee;
+        color: #EEE;
         font-weight: bold;
-        border-radius: <?= 20 / 2 ?>px;
+        border-radius: 10px;
     }
 
     [center] {
@@ -36,4 +36,3 @@ echo '</small>';
         font-size: <?= 10 - 8 ?>rem;
     }
 </style>
-

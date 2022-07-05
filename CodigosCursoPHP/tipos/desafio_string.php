@@ -2,11 +2,12 @@
 
 <?php
 
-echo 'Enunciado';
-echo '<br>';
-echo 'Avaliando os métodos da documentação da string, qual o método que a posição de texto abc na string !AbcaBcabc retorne 1?';
-echo '<br>';
+// Enunciado:
+// Avaliando os métodos da documentação da string, 
+// qual o métodos que a posicao do texto 'abc' 
+// na string '!AbcaBcabc' retorne 1?
 
 echo strpos('!AbcaBcabc', 'abc') . '<br>';
-echo stripos('!AbcaBcabc', 'abc') . '<br>'; // <---- Resposta correta
-echo strpos(strtolower('!AbcaBcabc'), 'abc');
+echo stripos('!AbcaBcabc', 'abc') . '<br>';
+
+echo strpos(strtolower('!AbcaBcabc'), strtolower('ABC'));

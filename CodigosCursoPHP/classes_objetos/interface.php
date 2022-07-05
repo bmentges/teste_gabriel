@@ -5,12 +5,13 @@ interface Animal {
     function respirar();
 }
 
-interface Mamífero {
+interface Mamifero {
     function mamar();
 }
 
-interface Canino extends Animal, Mamífero {
+interface Canino extends Animal, Mamifero {
     function latir(): string;
+    function correr();
 }
 
 interface Felino {
@@ -19,19 +20,19 @@ interface Felino {
 
 class Cachorro implements Canino {
     function respirar() {
-        return "Irei respirar!";
+        return "Irei usar oxigênio!";
     }
 
     function latir(): string {
-        return "Irei latir!";
+        return 'Au Au';
     }
 
-    function mamar(): string {
-        return "Irei mamar!";
+    function mamar() {
+        return "Irei usar leite!";
     }
-    
+
     function correr() {
-        return "Agora irei correr!";
+        return "vrunnnnn!";
     }
 }
 
@@ -47,6 +48,6 @@ var_dump($animal);
 echo '<br>';
 var_dump($animal instanceof Cachorro);
 var_dump($animal instanceof Canino);
-var_dump($animal instanceof Mamífero);
+var_dump($animal instanceof Mamifero);
 var_dump($animal instanceof Animal);
 var_dump($animal instanceof Felino);

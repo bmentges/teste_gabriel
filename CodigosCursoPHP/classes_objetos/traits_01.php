@@ -2,7 +2,7 @@
 
 <?php
 trait validacao {
-    public $a = 'Valor A';
+    public $a = 'Valor a';
 
     public function validarString($str) {
         return isset($str) && $str !== '';
@@ -10,8 +10,8 @@ trait validacao {
 }
 
 trait validacaoMelhor {
-    public $b = 'Valor B';
-    private $c = 'Valor C (Privado)';
+    public $b = 'Valor b';
+    private $c = 'Valor c (privado)';
 
     public function validarStringMelhor($str) {
         return isset($str) && trim($str);
@@ -33,5 +33,5 @@ var_dump($usuario->validarString(' '));
 echo '<br>';
 var_dump($usuario->validarStringMelhor(' '));
 echo '<br>';
-echo $usuario->a, '<br>', $usuario->b;
+echo $usuario->a, '<br>',$usuario->b;
 echo $usuario->imprimirValorC();

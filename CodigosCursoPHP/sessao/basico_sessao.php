@@ -11,10 +11,11 @@ if(!$_SESSION['nome']) {
 }
 
 if(!$_SESSION['email']) {
-    $_SESSION['email'] = 'gabriel@zmail.com';
+    $_SESSION['email'] = 'gabriel@azmail.com';
 }
 
 print_r($_SESSION);
+
 ?>
 
 <p>

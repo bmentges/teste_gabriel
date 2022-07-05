@@ -21,7 +21,7 @@ label, input, button {
 }
 
 button {
-    color: #fff;
+    color: #FFF;
     background-color: #228b22;
 }
 
@@ -35,7 +35,7 @@ button {
 .erros > p {
     font-size: 1.4rem;
     font-weight: 300;
-    color: #fff;
+    color: #FFF;
     background-color: #ff4500;
     padding: 10px 25px;
     margin-top: 0px;

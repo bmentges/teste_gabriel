@@ -1,4 +1,4 @@
-<?php
+<?php 
 session_start();
 
 $email = $_POST['email'];
@@ -7,14 +7,14 @@ $senha = $_POST['senha'];
 if($_POST['email']) {
     $usuarios = [
         [
-            "nome" => "Aluno COD3R",
+            "nome" => "Aluno Cod3r",
             "email" => "aluno@cod3r.com.br",
-            "senha" => "123456",
+            "senha" => "1234567",
         ],
         [
             "nome" => "Outro Aluno",
-            "email" => "outro@aluno.com.br",
-            "senha" => "654321",
+            "email" => "outro@email.com.br",
+            "senha" => "7654321",
         ],
     ];
 
@@ -41,7 +41,7 @@ if($_POST['email']) {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
     <link rel="stylesheet" href="recursos/css/estilo.css">
     <link rel="stylesheet" href="recursos/css/login.css">
     <title>Curso PHP</title>
@@ -49,9 +49,8 @@ if($_POST['email']) {
 <body class="login">
     <header class="cabecalho">
         <h1>Curso PHP</h1>
-        <h2>Seja bem vindo(a)!</h2>
+        <h2>Seja Bem Vindo</h2>
     </header>
-    </nav>
     <main class="principal">
         <div class="conteudo">
             <h3>Identifique-se</h3>
@@ -76,7 +75,7 @@ if($_POST['email']) {
         </div>
     </main>
     <footer class="rodape">
-        COD3R + G4BR13L C4RV4LH0 @ <?= date('Y'); ?>
+        COD3R & ALUNOS © <?= date('Y'); ?>
     </footer>
 </body>
 </html>

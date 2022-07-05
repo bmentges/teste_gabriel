@@ -10,8 +10,7 @@ class Usuario extends Pessoa {
     }
 
     public function apresentar() {
-        echo "@{$this->login}: ";
+        $login = "@{$this->login}: ";
         return $login . parent::apresentar();
     }
 }
-?>

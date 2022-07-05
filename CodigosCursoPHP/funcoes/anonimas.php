@@ -1,14 +1,14 @@
 <div class="titulo">Funções Anônimas</div>
 
 <?php
-$soma = function($a, $b) {
+$soma = function ($a, $b) {
     return $a + $b;
 };
 
 echo $soma(1, 2) . '<br>';
 
 function executar($a, $b, $op, $funcao) {
-    $resultado = $funcao($a, $b);
+    $resultado = $funcao($a, $b) ?? 'Nada';
     echo "$a $op $b = $resultado<br>";
 }
 

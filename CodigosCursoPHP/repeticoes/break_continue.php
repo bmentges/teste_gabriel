@@ -16,10 +16,10 @@ for(;;) {
     $cont++;
     if($cont % 2 === 1) continue;
     echo "$cont <br>";
-    if($cont >= 30) break;
+    if($cont >= 30) {
+        break;
+    }
 }
-
-echo "<br><hr>";
 
 foreach(array(1,2,3,4,5,6) as $valor) {
     if($valor === 5) break;

@@ -2,7 +2,7 @@
 
 <?php
 $dados1 = [
-    "nome" => "José",
+    "nome" => "Jose",
     "idade" => 28
 ];
 
@@ -44,6 +44,6 @@ $decimais = array_merge($pares, $impares);
 echo '<br>';
 print_r($decimais);
 
-sort($decimais); // 
+sort($decimais);
 echo '<br>';
 print_r($decimais);

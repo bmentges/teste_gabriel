@@ -8,11 +8,11 @@ class Pessoa {
     function __construct($nome, $idade) {
         $this->nome = $nome;
         $this->idade = $idade;
-        echo 'Pessoa criada! <br>';
+        echo 'Pessoa Criada! <br>';
     }
 
     function __destruct() {
-        echo 'Pessoa diz: Tchau!';
+        echo 'Pessoa diz: Tchau!!';
     }
 
     public function apresentar() {
@@ -28,11 +28,11 @@ class Usuario extends Pessoa {
         // $this->idade = $idade;
         parent::__construct($nome, $idade);
         $this->login = $login;
-        echo 'Usuário criado! <br>';
+        echo 'Usuario Criado! <br>';
     }
 
     function __destruct() {
-        echo 'Usuário diz: Tchau!<br>';
+        echo 'Usuário diz: Tchau!!<br>';
         parent::__destruct();
     }
 

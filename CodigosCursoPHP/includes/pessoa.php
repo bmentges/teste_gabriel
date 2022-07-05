@@ -12,4 +12,3 @@ class Pessoa {
         return "{$this->nome}, {$this->idade} anos";
     }
 }
-?>

@@ -15,5 +15,4 @@ $superior = ($superiorA - $superiorB) ** 3;
 $inferior = 10 ** 3;
 
 $final = $superior / $inferior;
-
 echo "O resultado final é " . $final . ".";

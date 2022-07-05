@@ -1,7 +1,7 @@
-<div class="titulo">Desafio "FOR"</div>
+<div class="titulo">Desafio For</div>
 
-<!--
-Usar o for para imprimir essas # abaixo
+<!-- 
+Usar o for...
 #
 ##
 ###
@@ -12,19 +12,17 @@ Usar o for para imprimir essas # abaixo
 -->
 
 <?php
-
-// 1)
 $impressao = '';
 for($cont = 1; $cont <= 5; $cont++) {
     $impressao .= '#';
     echo "$impressao <br>";
 }
-echo "<hr>";
 
-// 2)
+echo '<hr>';
+
 for(
     $impressao2 = '#';
-    $impressao2 !== '######';
+    $impressao2 !== '######'; 
     $impressao2 .= '#'
 ) {
     echo "$impressao2 <br>";

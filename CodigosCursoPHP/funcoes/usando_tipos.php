@@ -16,10 +16,10 @@ function somar2(int $a, int $b) {
 }
 
 echo somar2(1, 2) . '<br>';
-echo somar2(1.7, 2.5) . '<br>'; // Foi arredondado por conta que eu defini que $a e $b eram int.
-// echo somar2(1, '4dois') . '<br>';
+echo somar2(1.7, 2.5) . '<br>';
+echo somar2(1, '4dois') . '<br>';
 
-function somar3($a, $b): int {
+function somar3($a, float $b): int {
     echo "<span>Somando $a + $b = </span>";
     return $a + $b;
 }

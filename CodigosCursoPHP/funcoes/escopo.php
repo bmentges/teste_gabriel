@@ -1,20 +1,17 @@
-<div class="titulo">Função e Escopo</div>
+<div class="titulo">Função & Escopo</div>
 
 <?php
-
-// O objetivo da função é ter uma sequencia de codigos e
-// nomeá-los de tal forma que você consiga chamar esses
-// codigos. A escolha dos nomes das variáveis,
-// das constantes e das funções é muito importante.
-
 function imprimirMensagens() {
     echo "Olá! ";
     echo "Até a próxima!<br>";
 }
 
 imprimirMensagens();
+imprimirMensagens();
+imprimirMensagens();
 
 $variavel = 1;
+
 function trocaValor() {
     $variavel = 2;
     echo "Durante a função: $variavel <br>";

@@ -13,9 +13,7 @@ var_dump($arr1 === $arr3);
 var_dump($arr1 != $arr3);
 var_dump($arr1 !== $arr3);
 
-$arr4 = ['idade' => '20', 'nome' => 'Maria'];
 echo '<br>';
+$arr4 = ['idade' => '20', 'nome' => 'Maria'];
 var_dump($arr1 == $arr4);
 var_dump($arr1 === $arr4);
-var_dump($arr1 != $arr4);
-var_dump($arr1 !== $arr4);

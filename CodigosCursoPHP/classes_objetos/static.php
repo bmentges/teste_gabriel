@@ -13,21 +13,21 @@ class A {
         // echo "Estática = {self::$static}<br>";
         echo "Estática = " . self::$static . "<br>";
     }
-
+    
     public static function mostrarStaticA() {
         // echo "Não estática = {$this->naoStatic}<br>";
-        // echo 'Estática = {$static}<br>';
+        // echo "Estática = {$static}<br>";
         echo "Estática = " . self::$static . "<br>";
     }
 }
 
 $objetoA = new A();
 $objetoA->mostrarA();
-$objetoA->mostrarStaticA(); // Não é a forma ideal
+$objetoA->mostrarStaticA(); // não é a forma ideal
 
 echo '<br>';
-echo A::$static, '<br>'; // Acessar diretamente pela classe
-A::mostrarStaticA(); // Acessar diretamente pela classe
+echo A::$static, '<br>'; // acessar diretamente pela classe
+A::mostrarStaticA(); // acessar diretamente pela classe
 
-A::$static = 'Aterado membro de classe!';
-echo A::$static, '<br>'; // Acessar diretamente pela classe
+A::$static = 'Alterado membro de classe!';
+echo A::$static, '<br>'; // acessar diretamente pela classe

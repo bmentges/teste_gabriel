@@ -2,7 +2,7 @@
 
 <?php
 $meses = array(
-    1 => "Janeiro", // O índice inicial 1 irá fazer com que todos os outros sigam a sequencia numérica.
+    1 => "Janeiro",
     "Fevereiro",
     "Março",
     "Abril",
@@ -13,7 +13,7 @@ $meses = array(
     "Setembro",
     "Outubro",
     "Novembro",
-    "Dezembro",
+    "Dezembro"
 );
 
 print_r($meses);

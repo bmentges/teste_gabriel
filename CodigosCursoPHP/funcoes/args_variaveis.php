@@ -1,9 +1,6 @@
 <div class="titulo">Argumentos Variáveis</div>
 
 <?php
-
-// Argumentos ou Parâmetros, são a mesma coisa...
-
 function soma($a, $b) {
     return $a + $b;
 }
@@ -34,7 +31,7 @@ function membros($titular, ...$dependentes) {
 }
 
 echo '<br>';
-membros("Ana Paula", "Pedro", "Rafaela", "Amanda");
+membros("Ana Silva", "Pedro", "Rafaela", "Amanda");
 
 echo '<br>';
 membros("Roberto", "Junior");

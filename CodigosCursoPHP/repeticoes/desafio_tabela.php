@@ -1,6 +1,6 @@
-<div class="titulo">Desafio Tabela #1</div>
+<div class="titulo">Desafio Tabela #01</div>
 
-<?php
+<?php 
 $matriz = [
     ['01', '02', '03', '04', '05'],
     ['06', '07', '08', '09', '10'],
@@ -17,7 +17,7 @@ foreach($matriz as $linha) {
 ?>
 
 <table>
-    <?php
+    <?php 
         foreach($matriz as $linha) {
             echo '<tr>';
             foreach($linha as $valor) {
@@ -29,9 +29,10 @@ foreach($matriz as $linha) {
 </table>
 
 <table>
-    <?php
+    <?php 
         foreach($matriz as $index => $linha) {
-            $style = $index % 2 === 0 ? 'background-color: lightblue' : '';
+            $style = $index % 2 === 0 ? 
+                'background-color: lightblue;' : '';
             echo "<tr style='{$style}'>";
             foreach($linha as $valor) {
                 echo "<td>$valor</td>";

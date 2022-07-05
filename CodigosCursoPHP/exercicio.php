@@ -1,4 +1,4 @@
-<?php
+<?php 
 session_start();
 
 if($_COOKIE['usuario']) {
@@ -14,7 +14,7 @@ if(!$_SESSION['usuario']) {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
     <link rel="stylesheet" href="recursos/css/estilo.css">
     <link rel="stylesheet" href="recursos/css/exercicio.css">
     <title>Exercício</title>
@@ -25,8 +25,9 @@ if(!$_SESSION['usuario']) {
         <h2>Visualização do Exercício</h2>
     </header>
     <nav class="navegacao">
-    <span class="usuario"> Usuário: <?= $_SESSION['usuario'] ?>
-        <a href=<?= "{$_GET['dir']}/{$_GET['file']}.php"?> class="verde">Sem formatação</a>
+        <span class="usuario">Usuário: <?= $_SESSION['usuario'] ?></span>
+        <a href=<?= "/{$_GET['dir']}/{$_GET['file']}.php" ?> 
+            class="verde">Sem formatação</a>
         <a href="index.php">Voltar</a>
         <a href="logout.php" class="vermelho">Sair</a>
     </nav>
@@ -38,7 +39,7 @@ if(!$_SESSION['usuario']) {
         </div>
     </main>
     <footer class="rodape">
-        COD3R + G4BR13L C4RV4LH0 @ <?= date('Y'); ?>
+        COD3R & ALUNOS © <?= date('Y'); ?>
     </footer>
 </body>
 </html>

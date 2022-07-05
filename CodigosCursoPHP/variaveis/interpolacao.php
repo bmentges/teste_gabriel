@@ -3,14 +3,13 @@
 <?php
 $numero = 10;
 echo $numero;
-echo '<br> $numero'; // Não interpola com ' '
-echo "<br> $numero"; // Interpola com " "
+echo '<br> $numero';
+echo "<br> $numero";
 
-$texto = "A sua noté é: $numero";
+$texto = "A sua nota é: $numero";
 echo "<br>$texto";
 
 $objeto = 'caneta';
-echo "<br>Eu tenho 5 ${objeto}s.";
-echo "<br>Eu tenho 5 { $objeto}s, mas perdi 3 {$objeto }s."; // Espaço antes da $objeto dentro das { } não é reconhecido, mas depois do $objeto dentro das { } é reconhecido
-echo '<br>';
-echo "$numero";
+echo "<br>Eu tenho 5 $objetos";
+echo "<br>Eu tenho 5 {$objeto}s.";
+echo "<br>Eu tinha 5 { $objeto}s mas perdi 3 {$objeto }s";

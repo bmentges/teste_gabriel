@@ -12,14 +12,14 @@ class Data {
 }
 
 $aniversario = new Data;
-$aniversario->dia = 11;
-$aniversario->mes = 05;
-$aniversario->ano = 2022;
+$aniversario->dia = 15;
+$aniversario->mes = 8;
+$aniversario->ano = 2014;
 
 $casamento = new Data();
-$casamento->dia = 16;
-$casamento->mes = 12;
-$casamento->ano = 2010;
+$casamento->dia = 1;
+$casamento->mes = 8;
+$casamento->ano = 2009;
 
 echo $aniversario->apresentar(), '<br>';
 echo $casamento->apresentar();
